@@ -8,7 +8,7 @@ class Solution:
         # re-assign the node before the midddle node to point to node after middle
         # create a fast and slow pointer
         
-        if not head.next:
+        if not head or not head.next:
             return None
         
         slow = head
